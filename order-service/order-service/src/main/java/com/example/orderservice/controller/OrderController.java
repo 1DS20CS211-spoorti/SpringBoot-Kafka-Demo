@@ -17,7 +17,7 @@ public class OrderController {
 
 	private OrderProducer orderProducer;
 	
-	public OrderController(OrderProducer orderProcer) {
+	public OrderController(OrderProducer orderProducer) {
 		this.orderProducer = orderProducer;
 	}
 	@PostMapping("/orders")
